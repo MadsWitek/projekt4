@@ -10,10 +10,7 @@ body {
     display: flex;
     justify-content: center;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(1fr);
-    grid-gap: 3px;
+.container {
     position: relative;
     padding-left: 20%;
     padding-right: 20%;
@@ -23,7 +20,6 @@ body {
 input {
     width: 90%;
     border: none;
-    border-bottom: 1px solid #FF7F11;
     outline: none;
     padding-bottom: 5px;
     border-radius: 2px;
@@ -32,7 +28,6 @@ input {
 
 textarea {
     width: 90%;
-    border: 1px solid #BEB7A4;
     outline: none;
     padding: 10px;
     border-radius: 5px;
