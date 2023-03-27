@@ -9,8 +9,7 @@ body {
     letter-spacing: .75px;
     line-height: 1.2;
     display: flex;
-    padding-left: 20%;
-    padding-top: 4%;
+    justify-content: center;
 }
 .grid-container {
     display: grid;
