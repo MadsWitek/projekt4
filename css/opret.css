@@ -1,0 +1,23 @@
+body {
+    background-color: #00454E;
+    color: #FFFFFF;
+}
+
+
+.overskriftopret{
+    font-size: 22px;
+    letter-spacing: .75px;
+    line-height: 1.2;
+    display: flex;
+    padding-left: 20%;
+    padding-top: 4%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3px;
+    position: relative;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 4%;
+}
