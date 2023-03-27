@@ -1,0 +1,39 @@
+body {
+    background-color: #00454E;
+    color: #FFFFFF;
+}
+
+.boxoverskrift{
+    font-size: 22px;
+    letter-spacing: .75px;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-gap: 3px;
+    position: relative;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 4%;
+}
+
+input {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #FF7F11;
+    outline: none;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+textarea {
+    width: 90%;
+    border: 1px solid #BEB7A4;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+}

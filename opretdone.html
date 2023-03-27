@@ -5,9 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet"  href="opretdone.css" />
+    <link rel="stylesheet"  href="css/opretdone.css" />
 </head>
 <body>
-    
+<section>   
+    <div class="grid-container">
+        <div class="boxoverskrift">
+        <h1>Opret indlæg</h1>
+        </div>
+            <div class="opretbox">
+                <form>
+                    <div class="inputrow">
+                        <div class="inputgroup">
+                            <label for="titel">Titel</label><br>
+                            <input type="text" id="titel" placeholder="Skriv en titel"><br>
+                        </div>
+
+                        <p>Beskrivelse</p>
+                        <textarea name="mesaage" rows="10" id="product" placeholder="Giv en beskrivelse"></textarea>
+
+                        <div class="inputgroup">
+                            <label for="katergori">Katergori</label><br>
+                            <input type="text" id="katergori" placeholder="Vælg en kategori"><br>
+                        </div>
+
+                        <div class="inputgroup">
+                            <label for="underkatergori">Underkatergori</label><br>
+                            <input type="text" id="underkatergori" placeholder="Vælg en underkategori"><br>
+                        </div>
+
+                        <div class="inputgroup">
+                            <label for="varighed">Varighed</label><br>
+                            <input type="text" id="varighed" placeholder="7 dage"><br>
+                        </div>
+                        
+                    </div>
+                    <button class="button-submit">Opret indlæg</button>
+                </form>
+        </div>
+</section>
+
 </body>
 </html>
