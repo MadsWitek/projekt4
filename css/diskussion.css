@@ -67,6 +67,18 @@ body {
     margin-top: -9px;
 }
 
+.kommentar1 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.liketekst1 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+}
+
 .con5 {
     display: inline-block;
     display: flex;
@@ -87,5 +99,67 @@ body {
     flex-direction: row;
 }
 
+/* kommentar 2 */
 
+.con7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.con8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.profiltekst1 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    margin-top: -1px;
+}
+
+.profiltekst2 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: white;
+    margin-top: -9px;
+}
+
+.kommentar2 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.liketekst1 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.con9 {
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    border: 1px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding: 2px;
+}
+
+.con10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
 
