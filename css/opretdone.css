@@ -1,6 +1,7 @@
 body {
     background-color: #00454E;
     color: #FFFFFF;
+    font-family: sans-serif;
 }
 
 .boxoverskrift{
@@ -12,13 +13,13 @@ body {
 }
 .container {
     position: relative;
+    padding-top: 4%;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 4%;
 }
 
 input {
-    width: 90%;
+    width: 100%;
     border: none;
     outline: none;
     padding-bottom: 5px;
@@ -27,8 +28,38 @@ input {
 }
 
 textarea {
-    width: 90%;
+    width: 100%;
     outline: none;
     padding: 10px;
     border-radius: 5px;
+}
+
+.button-submit{
+    display: flex;
+    justify-content: center;
+}
+.button-submit1{
+    background-color: yellow;
+    padding: 15px;
+    width: 500px;
+}
+
+.dropdownmenu{
+    display: block;
+    position: relative;
+}
+
+.katergori1{
+    width: 100%;
+    padding: 20px;
+}
+
+.underkatergori1{
+    width: 100%;
+    padding: 20px;
+}
+
+.varighed1{
+    width: 100%;
+    padding: 20px;
 }

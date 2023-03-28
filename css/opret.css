@@ -1,6 +1,7 @@
 body {
     background-color: #00454E;
     color: #FFFFFF;
+    font-family: sans-serif;
 }
 
 
@@ -19,4 +20,33 @@ body {
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 4%;
+}
+
+.underkatergoribox{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+
+.redigerknap1{
+    background-color: yellow;
+    padding: 15px;
+    width: 300px;
+}
+
+.sletknap1{
+    background-color:red;
+    padding: 15px;
+    width: 300px;
+}
+
+.continueknap{
+    display: flex;
+    justify-content: center;
+}
+.continueknap1{
+    background-color: yellow;
+    padding: 15px;
+    width: 500px;
 }
