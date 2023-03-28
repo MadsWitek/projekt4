@@ -4,49 +4,62 @@ body {
     font-family: sans-serif;
 }
 
-
-.overskriftopret{
+.boxoverskrift{
     font-size: 22px;
     letter-spacing: .75px;
     line-height: 1.2;
     display: flex;
     justify-content: center;
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(1fr);
-    grid-gap: 3px;
+.container {
     position: relative;
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 4%;
 }
 
-.underkatergoribox{
-    display: flex;
-    position: relative;
-    justify-content: space-between;
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    padding: 10px;
 }
 
-
-.redigerknap1{
-    background-color: yellow;
-    padding: 15px;
-    width: 300px;
+textarea {
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-.sletknap1{
-    background-color:red;
-    padding: 15px;
-    width: 300px;
-}
-
-.continueknap{
+.button-submit{
     display: flex;
     justify-content: center;
 }
-.continueknap1{
+.button-submit1{
     background-color: yellow;
     padding: 15px;
     width: 500px;
+}
+
+.dropdownmenu{
+    display: block;
+    position: relative;
+}
+
+.katergori1{
+    width: 100%;
+    padding: 20px;
+}
+
+.underkatergori1{
+    width: 100%;
+    padding: 20px;
+}
+
+.varighed1{
+    width: 100%;
+    padding: 20px;
 }
