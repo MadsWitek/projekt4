@@ -25,7 +25,7 @@ body {
 .underoverskrift1 {
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
 
@@ -41,8 +41,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+}
+.con4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    
+    margin-right: 20px;
 }
 
 .profiltekst1 {
@@ -61,7 +67,25 @@ body {
     margin-top: -9px;
 }
 
+.con5 {
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    border: 1px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding: 2px;
+}
 
+.con6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
 
 
 
