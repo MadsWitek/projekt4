@@ -20,7 +20,7 @@ body{
     font-family: sans-serif;
 }
 
-.logudknap{
+.logudknap {
     display: flex;
     font-size: 15px;
     font-family: sans-serif;
@@ -32,6 +32,11 @@ body{
     justify-content: center;
     fill: #FFFFFF;
     cursor: pointer;
+}
+
+.logudknap a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .tilbageknap{
