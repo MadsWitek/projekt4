@@ -28,6 +28,7 @@
 }
 
 .iconcontainer {
+    display: inline-block;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -72,13 +73,20 @@
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #000000;
 }
 
 .hjerte {
     fill: #9B3C7D;
 }
 
+@media only screen and (max-width: 990px) and (min-width: 320px) {
+    .container{
+      flex-direction: column;
+    }
+    .container2 {
+        justify-content: flex-start;
+    }
+  }
 
 
 
