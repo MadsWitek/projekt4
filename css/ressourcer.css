@@ -1,0 +1,64 @@
+body {margin:0;
+}
+
+.mainbox-underlinja {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #00454E;
+ 
+  
+  
+
+}
+
+.box1 {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+.overskrift {
+  font-family: sans-serif;
+  font-size: 20;
+  color: #00454E;
+}
+
+
+
+
+
+.undertekst {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  color: #00454E;
+  font-family: sans-serif;
+
+}
+
+
+.pilbox {
+  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 3;
+  
+  
+}
+
+.pilikon a   {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  fill: #00454e;
+}
+
