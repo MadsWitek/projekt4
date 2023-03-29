@@ -1,17 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #00454E;
     color: #FFFFFF;
     font-family: sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
 
-.overskriftopret{
+
+.overskriftopret {
     font-size: 22px;
     letter-spacing: .75px;
     line-height: 1.2;
     display: flex;
     justify-content: center;
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(1fr);
@@ -21,32 +30,64 @@ body {
     padding-right: 20%;
 }
 
-.underkatergoribox{
+.underkatergoribox {
     display: flex;
     position: relative;
     justify-content: space-between;
+    margin-bottom: 53px;
 }
 
+.button {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+}
 
-.redigerknap1{
+.redigerknap1 {
     background-color: yellow;
-    padding: 15px;
-    width: 300px;
 }
 
-.sletknap1{
-    background-color:red;
-    padding: 15px;
-    width: 300px;
+.sletknap1 {
+    background-color: red;
 }
 
-.continueknap{
+.continueknap {
     display: flex;
     justify-content: center;
-}
-.continueknap1{
+    width: 100%;
+    padding: 15px 0;
     background-color: yellow;
-    padding: 15px;
-    width: 500px;
 }
 
+
+.knapbox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 25%;
+    min-width: 150px;
+}
+
+@media (max-width: 600px) {
+    .underkatergoribox {
+        flex-direction: column;
+    }
+
+    .knapbox {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .underkatergoribox {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 450px) {
+    .grid-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

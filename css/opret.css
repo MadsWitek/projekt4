@@ -1,21 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #00454E;
     color: #FFFFFF;
     font-family: sans-serif;
 }
 
-.boxoverskrift{
+.form-wrapper {
+    display: grid;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.boxoverskrift {
     font-size: 22px;
     letter-spacing: .75px;
     line-height: 1.2;
     display: flex;
     justify-content: center;
 }
+
 .container {
     position: relative;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 4%;
+    padding-top: 50px;
 }
 
 input {
@@ -34,37 +47,48 @@ textarea {
     border-radius: 5px;
 }
 
-.button-submit{
-    display: flex;
-    justify-content: center;
-}
-.button-submit1{
-    background-color: yellow;
-    padding: 15px;
-    width: 500px;
+.button-submit {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.dropdownmenu{
+.button-submit1 {
+    background-color: yellow;
+    padding: 15px;
+    width: 100%;
+}
+
+.dropdownmenu {
     display: block;
     position: relative;
 }
 
-.katergori1{
+.inputgroup {
+    display: grid;
+    gap: 8px;
+}
+
+.margin-bottom {
+    margin-bottom: 25px;
+}
+
+.select {
     width: 100%;
     padding: 20px;
 }
 
-.underkatergori1{
-    width: 100%;
-    padding: 20px;
+@media (max-width: 600px) {
+    .select {
+        padding: 10px 5px;
+    }
+
 }
 
-.varighed1{
-    width: 100%;
-    padding: 20px;
-}
-
-.semester1{
-    width: 100%;
-    padding: 20px;
+@media (max-width: 450px) {
+    .container {
+        padding-top: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
