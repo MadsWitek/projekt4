@@ -5,60 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet"  href="css/opretdone.css" />
+    <link rel="stylesheet"  href="css/opretdone.css"/>
 </head>
 <body>
-<section>   
-    <div class="container">
-        <div class="boxoverskrift">
-        <h1>Opret indlæg</h1>
+    <section>   
+        
+        <div class="grid-container"> 
+            <div class="overskriftopret"> 
+                <h1>Indlæg bekræftigelse</h1>
+            </div>   
+            <h2>Titel</h2>
+                <h3>Beskrivelse</h3>    
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam natus adipisci doloremque culpa error nisi illo excepturi placeat repellat ratione voluptates distinctio, cumque assumenda. Laborum in nihil dolor asperiores maxime, itaque optio voluptate recusandae dolore incidunt voluptatibus at rem numquam suscipit totam iusto fugiat laudantium alias quasi magni distinctio minus.</p>
+                        <h3>Kategori</h3>
+                            <p>Almen undervisning</p>
+        <div class="underkatergoribox">
+            <div class="textbox">
+            <h3>Underkatergori</h3>
+                 <p>Æstetik</p>
+                <h3>Varighed</h3>
+                <p>7 dage</p>
+            </div>
+    <div class="knapbox">       
+            <div class="redigerknap">
+                <a href="opret.html"><Button class="redigerknap1">Rediger indlæg</Button></a>
+            </div>
+                <div class="sletknap">
+                    <a href="#"><button class="sletknap1">Slet indlæg</button></a>
+                </div>
         </div>
-            <div class="opretbox">
-                <form>
-                    <div class="inputrow">
-                        <div class="inputgroup">
-                            <label for="titel">Titel</label><br>
-                            <input type="text" id="titel" placeholder="Skriv en titel"><br>
-                        </div>
+             </div>
 
-                        <p>Beskrivelse</p>
-                        <textarea name="mesaage" rows="10" id="product" placeholder="Giv en beskrivelse"></textarea>
-
-                        <div class="inputgroup">
-                            <label for="katergori">Katergori</label><br>
-                            <select name="katergori" id="katergori">
-                                <option value="1">1</option>
-                                <option value="1">2</option>
-                                <option value="1">3</option>
-                                <option value="1">4</option>
-                            </select>
-                        </div>
-
-                        <div class="inputgroup">
-                            <label for="underkatergori">Underkatergori</label><br>
-                            <select name="underkatergori" id="underkatergori">
-                                <option value="1">1</option>
-                                <option value="1">2</option>
-                                <option value="1">3</option>
-                                <option value="1">4</option>
-                            </select>
-                        </div>
-
-                        <div class="inputgroup">
-                            <label for="varighed">Varighed</label><br>
-                            <select name="varighed" id="varighed">
-                                <option value="1">1</option>
-                                <option value="1">2</option>
-                                <option value="1">3</option>
-                                <option value="1">4</option>
-                            </select>
-                        </div>
-                        
-                    </div>
-                    <button class="button-submit">Opret indlæg</button>
-                </form>
+            <div class="continueknap">
+                <a href="#"><button class="continueknap1">Fortsæt</button></a>
+            </div> 
+                    
         </div>
-</section>
-
+    </section>
 </body>
 </html>
