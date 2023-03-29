@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indlæg bekræftigelse</title>
     <link rel="stylesheet" href="css/opretdone.css" />
+    <script src="js/localstoragedone.js" async defer></script>
 </head>
 
 <body>
@@ -47,30 +48,6 @@
 
         </div>
     </section>
-
-    <script>
-        const titel = document.querySelector("#titel")
-        const beskrivelse = document.querySelector("#beskrivelse")
-        const kategori = document.querySelector("#kategori")
-        const underkategori = document.querySelector("#underkategori")
-        const varighed = document.querySelector("#varighed")
-        const semester = document.querySelector("#semester")
-
-        const titelValue = localStorage.getItem("titel")
-        const beskrivelseValue = localStorage.getItem("beskrivelse")
-        const kategoriValue = localStorage.getItem("kategori")
-        const underkategoriValue = localStorage.getItem("underkategori")
-        const varighedValue = localStorage.getItem("varighed")
-        const semesterValue = localStorage.getItem("semester")
-
-        titel.innerHTML = titelValue;
-        beskrivelse.innerHTML = beskrivelseValue;
-        kategori.innerHTML = kategoriValue
-        underkategori.innerHTML = underkategoriValue
-        varighed.innerHTML = varighedValue
-        semester.innerHTML = semesterValue
-
-    </script>
 </body>
 
 </html>
