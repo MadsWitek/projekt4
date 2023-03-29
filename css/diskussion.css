@@ -74,6 +74,8 @@ body {
     font-family: sans-serif;
     font-weight: 500;
     font-size: 15px;
+    max-width: 800px;
+    line-height: 20px;
 }
 
 .liketekst1 {
@@ -100,6 +102,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin-bottom: -10px;
 }
 
 /* kommentar 2 */
@@ -138,6 +141,8 @@ body {
     font-family: sans-serif;
     font-weight: 500;
     font-size: 15px;
+    max-width: 800px;
+    line-height: 20px;
 }
 
 .liketekst1 {
@@ -155,7 +160,7 @@ body {
     background-color: white;
     border: 1px;
     border-radius: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     padding: 2px;
 }
 
@@ -164,6 +169,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin-bottom: -10px;
 }
 
 /* label */
@@ -184,6 +190,7 @@ body {
     height: 30px;
     border-style: none;
     border-width: 0px;
+    border-color: #00454E;
     padding-left: 20px;
 }
 
