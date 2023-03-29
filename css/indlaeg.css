@@ -1,15 +1,48 @@
-body {
-    background-color: #00454E;
+:root{
+    --bg-colour: #ffffff; 
+    --second-bg-colour: #00454E;
+    --button-colour: #00454E;
+    --second-button-colour: #FAE76A;
+    --third-button-colour: #ffffff;
+    --fourth-button-colour: #e33939;
+    --fifth-button-colour: #9b3c7d;
+    --font-colour: #00454E;
+    --second-font-colour: #ffffff;
+    --third-font-colour: #e33939;
 }
 
+body{
+    background: var(--second-bg-colour);
 
-.con1 {
+}
+
+.timer{
+    display: flex;
+}
+
+.clock{
+    margin-left: 1500px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.clocktekst{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+    color: var(--second-font-colour);
+}
+
+.topcon1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.overskrift1 {
+.headline {
     font-family: sans-serif;
     font-style: italic;
     font-weight: bold;
@@ -17,25 +50,74 @@ body {
     color: white;
 }
 
-.con2 {
+.topcon2 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column; 
 }
-.underoverskrift1 {
+.category {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 25px;
     color: white;
 }
 
-.kategori {
+.topcon3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.topcon4{
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding: 2px;
+    background-color: var(--bg-colour);
+    margin-bottom: 50px;
+}
+
+.description{
     font-family: sans-serif;
+    font-style: italic;
     font-weight: 400;
-    font-size: 15px;
-    color: white;
-    margin-bottom: -5px;
+    font-size: 20px;
+    color: var(--font-colour);
+    margin-bottom: 50px;
+    line-break: 100px;
+    max-width: 1000px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.topcon5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 700px;
+}
+
+.commentarytekst{
+    font-family: sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.heart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 20px;
 }
 
 /* kommentar 1 */
@@ -52,6 +134,7 @@ body {
     align-items: center;
     flex-direction: column;
     margin-right: 20px;
+    
 }
 
 .profiltekst1 {
@@ -103,7 +186,7 @@ body {
     align-items: center;
     flex-direction: row;
     margin-bottom: -10px;
-}
+} 
 
 /* kommentar 2 */
 
@@ -208,11 +291,3 @@ body {
     border-width: 0px;
     padding-right: 20px;
 }
-
-/* Media quarry */
-
-
-
-
-
-

@@ -1,46 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet"  href="css/opretdone.css"/>
+    <title>Indlæg bekræftigelse</title>
+    <link rel="stylesheet" href="css/opretdone.css" />
+    <script src="js/localstoragedone.js" async defer></script>
 </head>
-<body>
-    <section>   
-        
-        <div class="grid-container"> 
-            <div class="overskriftopret"> 
-                <h1>Indlæg bekræftigelse</h1>
-            </div>   
-            <h2>Titel</h2>
-                <h3>Beskrivelse</h3>    
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam natus adipisci doloremque culpa error nisi illo excepturi placeat repellat ratione voluptates distinctio, cumque assumenda. Laborum in nihil dolor asperiores maxime, itaque optio voluptate recusandae dolore incidunt voluptatibus at rem numquam suscipit totam iusto fugiat laudantium alias quasi magni distinctio minus.</p>
-                        <h3>Kategori</h3>
-                            <p>Almen undervisning</p>
-        <div class="underkatergoribox">
-            <div class="textbox">
-            <h3>Underkatergori</h3>
-                 <p>Æstetik</p>
-                <h3>Varighed</h3>
-                <p>7 dage</p>
-            </div>
-    <div class="knapbox">       
-            <div class="redigerknap">
-                <a href="opret.html"><Button class="redigerknap1">Rediger indlæg</Button></a>
-            </div>
-                <div class="sletknap">
-                    <a href="#"><button class="sletknap1">Slet indlæg</button></a>
-                </div>
-        </div>
-             </div>
 
-            <div class="continueknap">
-                <a href="#"><button class="continueknap1">Fortsæt</button></a>
-            </div> 
-                    
+<body>
+    <section>
+        <div class="grid-container">
+            <div class="overskriftopret">
+                <h1>Indlæg bekræftigelse</h1>
+            </div>
+            <div class="textbox">
+                <h2 id="titel">Titel</h2>
+                <h3>Beskrivelse</h3>
+                <p id="beskrivelse"></p>
+                <h3>Kategori</h3>
+                <p id="kategori">Almen undervisning</p>
+            </div>
+            <div class="underkatergoribox">
+                <div class="textbox">
+                    <h3>Underkatergori</h3>
+                    <p id="underkategori">Æstetik</p>
+                    <h3>Varighed</h3>
+                    <p id="varighed">7 dage</p>
+                    <h3>Semester</h3>
+                    <p id="semester">2</p>
+                </div>
+                <div class="knapbox">
+                    <div class="redigerknap">
+                        <a href="opret.html"><Button class="button redigerknap1">Rediger indlæg</Button></a>
+                    </div>
+                    <div class="sletknap">
+                        <a href="#"><button class="button sletknap1">Slet indlæg</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#">
+                <button class="continueknap">Fortsæt</button>
+            </a>
+
         </div>
     </section>
 </body>
+
 </html>
