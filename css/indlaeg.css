@@ -275,6 +275,7 @@ body{
     border-width: 0px;
     border-color: #00454E;
     padding-left: 20px;
+    outline: none;
 }
 
 .sendknap {
