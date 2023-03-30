@@ -45,11 +45,32 @@ a {
 }
 
 .redigerknap1 {
-    background-color: yellow;
-}
+    padding: 15px;
+    width: 100%;
+    background-color: #fae76a; 
+    color: black; 
+    transition-duration: 0.1s;
+    cursor: pointer;
+    font-size: large;
+ }
+    
+.redigerknap1:hover {
+        background-color: #CAE4E3;
+        color: black;
+      }
+
 
 .sletknap1 {
+    background-color: #fae76a;
+    color: black; 
+    transition-duration: 0.1s;
+    cursor: pointer;
+    font-size: large;
+}
+
+.sletknap1:hover {
     background-color: red;
+    color: black;
 }
 
 .continueknap {
@@ -57,9 +78,16 @@ a {
     justify-content: center;
     width: 100%;
     padding: 15px 0;
-    background-color: yellow;
+    background-color: #fae76a; 
+    color: black; 
+    transition-duration: 0.1s;
+    cursor: pointer;
+    font-size: large;
 }
-
+.continueknap:hover {
+    background-color: #CAE4E3;
+    color: black;
+}
 
 .knapbox {
     display: flex;
@@ -79,6 +107,7 @@ a {
     margin-top: 50px;
     margin-left: 40px;
 }
+
 
 @media (max-width: 600px) {
     .underkatergoribox {

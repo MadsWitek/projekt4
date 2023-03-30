@@ -29,6 +29,7 @@ body {
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 input {
@@ -54,10 +55,20 @@ textarea {
 }
 
 .button-submit1 {
-    background-color: yellow;
     padding: 15px;
     width: 100%;
+    background-color: #fae76a; 
+    color: black; 
+    transition-duration: 0.1s;
+    cursor: pointer;
+    font-size: large;
 }
+
+.button-submit1:hover {
+    background-color: #CAE4E3;
+    color: black;
+  }
+  
 
 .dropdownmenu {
     display: block;
