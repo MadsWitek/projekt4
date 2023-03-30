@@ -50,8 +50,7 @@ body {margin:0;
   display: inline-block;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  text-align: center;
+  
 }
 
  @media (max-width: 800px) {
@@ -75,4 +74,5 @@ body {margin:0;
     height: 50px;
   }
 }
+
 
