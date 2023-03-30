@@ -67,3 +67,11 @@ body{
 .knappertilindlæg{
     margin-left: -52px;
 }
+
+@media (max-width: 450px) {
+    .container {
+        padding-top: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
