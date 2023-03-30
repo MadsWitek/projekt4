@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redigere indlæg</title>
+    <link rel="stylesheet" href="css/redigere.css">
+</head>
+<body>
+    <section>
+        <div class="boxoverskrift">
+            <h1>Redigere indlæg</h1>
+        </div>
+        <div class="container">
+            <div class="opretbox">
+                <form id="form">
+                    <div class="form-wrapper">
+                        <div class="inputgroup">
+                            <label for="titel">Titel</label>
+                            <input type="text" id="titel" placeholder="Skriv en titel">
+                        </div>
+
+                        <div class="inputgroup margin-bottom">
+                            <p>Beskrivelse</p>
+                            <textarea name="mesaage" rows="10" id="beskrivelse"
+                                placeholder="Giv en beskrivelse"></textarea>
+                        </div>
+
+                        <div class="inputgroup">
+                            <label for="katergori">Katergori</label>
+                            <select class="select" name="katergori" id="kategori">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+
+                        <div class="inputgroup">
+                            <label for="underkatergori">Underkatergori</label>
+                            <select class="select" name="underkatergori" id="underkategori">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+
+                        <div class="inputgroup">
+                            <label for="varighed">Indlæggets varighed</label>
+                            <select class="select" name="varighed" id="varighed">
+                                <option value="1">1 Uge</option>
+                                <option value="2">2 Uger</option>
+                                <option value="3">3 Uger</option>
+                                <option value="4">4 Uger</option>
+                                <option value="7">7 Uger</option>
+                                <option value="12">12 Uger</option>
+                            </select>
+                        </div>
+
+                        <div class="inputgroup">
+                            <label for="semester">Semester</label>
+                            <select class="select" name="semester" id="semester">
+                                <option value="1">1 Semester</option>
+                                <option value="2">2 Semester</option>
+                                <option value="3">3 Semester</option>
+                                <option value="4">4 Semester</option>
+                                <option value="5">5 Semester</option>
+                                <option value="6">6 Semester</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="button-submit">
+                        <button type="submit" class="button-submit1">Gem indlæg</button>
+                    </div>
+                </form>
+
+            </div>
+    </section>
+</body>
+</html>
