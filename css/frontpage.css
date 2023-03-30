@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+
 :root{
     --bg-colour: #ffffff; 
     --second-bg-colour: #00454E;
@@ -11,3 +18,156 @@
     --third-font-colour: #e33939;
 }
 
+body{
+    background-color: var(--bg-colour);
+}
+
+.sidebar{
+    position: fixed;
+    background-color: var(--second-bg-colour);
+    width: 20%;
+    height: 100%;
+}
+
+.close {
+margin-left: auto;
+}
+
+.filtrering{
+    margin-left: 5%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20%;
+}
+
+.filtertekst{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+    color: var(--second-font-colour);
+}
+
+
+.inputgroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-items: center;
+    color: var(--second-font-colour);
+    margin-bottom: 25px;
+}
+
+.select {
+    
+    width: 75%;
+    padding: 20px;
+}
+
+.container{
+    position: relative;
+    left: 20%;
+}
+
+.container1 {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.kategori {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.indleagoverskrift {
+    font-family: sans-serif;
+    font-size: 25;
+}
+.indleag1 {
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 80%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;  
+}
+
+.iconcontainer {
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.ikontekst {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.pilikon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.piltekst {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+
+.container2 {
+    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 3;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.hjerte {
+    fill: #9B3C7D;
+}
+
+@media only screen and (max-width: 850px) and (min-width: 300px) {
+    .container{
+      flex-direction: column;
+      position: relative;
+      left: 2%;
+    }
+    .container2 {
+        justify-content: flex-start;
+    }
+    .indleag1 {
+        width: 600px; 
+    }
+  }
+
+  @media only screen and (max-width: 850px) and (min-width: 300px) {
+    .sidebar{
+        display: none;
+    }
+
+  }
