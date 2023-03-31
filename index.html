@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front Page</title>
+    <link rel="stylesheet" href="css/manubar.css">
     <link rel="stylesheet" href="css/frontpage.css">
 </head>
 <body>
-    <div class="container">
     <div class="sidebar" id="sidebar">
         <div class="filtrering">
             <div class="filter"><svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M440 896q-17 0-28.5-11.5T400 856V616L161 311q-14-17-4-36t31-19h584q21 0 31 19t-4 36L560 616v240q0 17-11.5 28.5T520 896h-80Z"/></svg></div>
@@ -17,34 +17,35 @@
         </div>
         <div class="inputgroup">
             <label for="category">Kategorier</label>
-                <select class="select" name="category" id="category">
-                    <option value="1">Almen Undervisning</option>
-                    <option value="2">Workshop</option>
-                    <option value="3">Projektarbejde</option>
-                    <option value="4">Vejledning</option>
-                </select>
+            <select class="select" name="category" id="category">
+                <option value="1">Almen Undervisning</option>
+                <option value="2">Workshop</option>
+                <option value="3">Projektarbejde</option>
+                <option value="4">Vejledning</option>
+            </select>
         </div>
 
-            <div class="inputgroup">
-                <label for="undercategory">Underkategorier</label>
-                <select class="select" name="undercategory" id="undercategory">
-                    <option value="1">Æstetik</option>
-                    <option value="2">Kodning</option>
-                    <option value="3">Brugertest</option>
-                    <option value="4">Teori</option>
-                </select>
+        <div class="inputgroup">
+            <label for="undercategory">Underkategorier</label>
+            <select class="select" name="undercategory" id="undercategory">
+                <option value="1">Æstetik</option>
+                <option value="2">Kodning</option>
+                <option value="3">Brugertest</option>
+                <option value="4">Teori</option>
+            </select>
             </div>
            
-            <div class="inputgroup">
-                <label for="sorter">Sorter Efter</label>
-                <select class="select" name="sorter" id="sorter">
-                    <option value="1">Nyeste Først</option>
-                    <option value="2">Mest Aktivitet</option>
-                    <option value="3">Tid Tilbage</option>
-                </select>
-            </div>
+        <div class="inputgroup">
+            <label for="sorter">Sorter Efter</label>
+            <select class="select" name="sorter" id="sorter">
+                <option value="1">Nyeste Først</option>
+                <option value="2">Mest Aktivitet</option>
+                <option value="3">Tid Tilbage</option>
+            </select>
+        </div>
         
     </div>
+    <div class="container">
         <div class="container1">
             <div>
                 <h2 class="indleagoverskrift">Mere vejledning i Javascript</h2> 
