@@ -20,7 +20,7 @@
 }
 
 body{
-    background-color: var(--third-bg-colour);
+    background-color: var(--second-bg-colour);
 }
 
 /*
@@ -29,7 +29,7 @@ body{
 } */
 
 .sidebar{
-    background-color: var(--second-bg-colour);
+    background-color: var(--third-bg-colour);
     width: 15%;
     height: 100%;
 }
@@ -37,15 +37,15 @@ body{
 .close {
 margin-left: auto;
 display: inline-flex;
-background-color: var(--second-bg-colour);
+background-color: var(--third-bg-colour);
 border: none;
-fill: var(--third-button-colour);
+fill: var(--button-colour);
 cursor: pointer;
 margin-left: 80px;
 }
 
 .filter{
-    fill: var(--third-button-colour);
+    fill: var(--button-colour);
 }
 
 .filtrering{
@@ -62,7 +62,7 @@ margin-left: 80px;
     font-family: sans-serif;
     font-weight: bold;
     margin-left: 5px;
-    color: var(--second-font-colour);
+    color: var(--font-colour);
 }
 
 .inputgroup {
@@ -71,7 +71,7 @@ margin-left: 80px;
     align-items: flex-start;
     gap: 10px;
     align-items: center;
-    color: var(--second-font-colour);
+    color: var(--font-colour);
     margin-bottom: 25px;
 }
 
@@ -99,11 +99,13 @@ display: flex;
 .kategori {
     font-family: sans-serif;
     font-size: 12px;
+    color: var(--second-font-colour);
 }
 
 .indleagoverskrift {
     font-family: sans-serif;
     font-size: 25;
+    color: var(--second-font-colour);
 }
 .indleag1 {
     font-family: sans-serif;
@@ -113,6 +115,7 @@ display: flex;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;  
+    color: var(--second-font-colour);
 }
 
 .iconcontainer {
@@ -137,7 +140,7 @@ display: flex;
     font-family: sans-serif;
     font-size: 15px;
     text-decoration: none;
-    color: #000000;
+    color: var(--third-button-colour);
 }
 
 .piltekst {
@@ -148,7 +151,9 @@ display: flex;
     text-align: start;
 }
 
-
+.arrowright{
+    fill:var(--third-button-colour)
+}
 
 .container2 {
     display: inline-block;
