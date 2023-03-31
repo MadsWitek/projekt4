@@ -39,6 +39,11 @@ body{
     color: #FFFFFF;
 }
 
+.logudknap:hover{
+    background-color: red;
+    color: #FFFFFF;
+}
+
 .tilbageknap{
     display: flex;
     margin-top: -660px;
