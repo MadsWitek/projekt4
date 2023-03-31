@@ -22,6 +22,11 @@ body{
     background-color: var(--bg-colour);
 }
 
+/*
+#sidebar{
+    display: none;
+} */
+
 .sidebar{
     position: fixed;
     background-color: var(--second-bg-colour);
@@ -31,12 +36,23 @@ body{
 
 .close {
 margin-left: auto;
+display: inline-flex;
+background-color: var(--second-bg-colour);
+border: none;
+
+fill: var(--third-button-colour);
+cursor: pointer;
+margin-left: 130%;
+}
+
+.filter{
+    fill: var(--third-button-colour);
 }
 
 .filtrering{
     margin-left: 5%;
     margin-top: 10%;
-    display: flex;
+    display: inline-flex;
     justify-content: left;
     align-items: center;
     flex-direction: row;
@@ -49,7 +65,6 @@ margin-left: auto;
     margin-left: 5px;
     color: var(--second-font-colour);
 }
-
 
 .inputgroup {
     display: flex;
@@ -151,19 +166,6 @@ margin-left: auto;
     fill: #9B3C7D;
 }
 
-@media only screen and (max-width: 850px) and (min-width: 300px) {
-    .container{
-      flex-direction: column;
-      position: relative;
-      left: 2%;
-    }
-    .container2 {
-        justify-content: flex-start;
-    }
-    .indleag1 {
-        width: 600px; 
-    }
-  }
 
   @media only screen and (max-width: 850px) and (min-width: 300px) {
     .sidebar{
