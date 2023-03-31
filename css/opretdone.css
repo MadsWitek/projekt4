@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+h2{
+    font-size: 30px;
+    justify-content: center;
+}
 
 .overskriftopret {
     font-size: 22px;

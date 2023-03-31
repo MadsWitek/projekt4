@@ -22,6 +22,7 @@ body {
     line-height: 1.2;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .container {
@@ -75,6 +76,9 @@ textarea {
     position: relative;
 }
 
+.labeltitel{
+    font-size: large;
+}
 .inputgroup {
     display: grid;
     gap: 8px;
