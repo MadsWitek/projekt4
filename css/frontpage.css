@@ -39,10 +39,9 @@ margin-left: auto;
 display: inline-flex;
 background-color: var(--second-bg-colour);
 border: none;
-
 fill: var(--third-button-colour);
 cursor: pointer;
-margin-left: 80%;
+margin-left: 80px;
 }
 
 .filter{
