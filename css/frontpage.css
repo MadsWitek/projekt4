@@ -41,7 +41,7 @@ background-color: var(--second-bg-colour);
 border: none;
 fill: var(--third-button-colour);
 cursor: pointer;
-margin-left: 80px;
+margin-left: -80px;
 }
 
 .filter{
