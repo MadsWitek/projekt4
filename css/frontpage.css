@@ -130,10 +130,11 @@ display: flex;
 }
 
 .pilikon a {
+    display: inline-block;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
     font-family: sans-serif;
     font-size: 15px;
     text-decoration: none;
@@ -143,9 +144,9 @@ display: flex;
 .piltekst {
     font-family: sans-serif;
     font-size: 15px;
-    justify-content: left;
-    align-items: left;
-    text-align: left;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
 }
 
 
