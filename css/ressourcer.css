@@ -1,6 +1,17 @@
 body {margin:0;
 }
 
+.ressourceoverskrift {
+  font-size: 22px;
+  letter-spacing: .75px;
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-family: sans-serif;
+}
+
+
 .mainbox-underlinja {
   display: flex;
   flex-direction: row;
