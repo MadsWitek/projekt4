@@ -28,7 +28,6 @@ body{
 } */
 
 .sidebar{
-    position: fixed;
     background-color: var(--second-bg-colour);
     width: 20%;
     height: 100%;
@@ -42,7 +41,7 @@ border: none;
 
 fill: var(--third-button-colour);
 cursor: pointer;
-margin-left: 130%;
+margin-left: 80%;
 }
 
 .filter{
@@ -83,8 +82,10 @@ margin-left: 130%;
 }
 
 .container{
-    position: relative;
-    left: 20%;
+display: inline-block;
+display: flex;
+
+
 }
 
 .container1 {
@@ -141,6 +142,9 @@ margin-left: 130%;
 .piltekst {
     font-family: sans-serif;
     font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -148,9 +152,9 @@ margin-left: 130%;
 .container2 {
     display: inline-block;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    flex-grow: 3;
+    justify-content: flex-start;
+
 
 }
 
