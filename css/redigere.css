@@ -76,6 +76,9 @@ textarea {
     position: relative;
 }
 
+.labeltitel{
+    font-size: large;
+}
 .inputgroup {
     display: grid;
     gap: 8px;
