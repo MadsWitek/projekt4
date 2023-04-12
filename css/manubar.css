@@ -14,18 +14,19 @@ body {margin:0;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
+
   
 }
 
 .menubar a {
-    
+  display: flex;
   display: block;
   color: #00454E;
   text-align: center;
   padding: 25px 20px;
   text-decoration: none;
   font-size: 18px;
-  border-bottom: 3px solid transparent; 
+  border-bottom: 3px solid transparent;
 }
 
 .menubar a:hover {
@@ -33,11 +34,23 @@ body {margin:0;
 }
 
 .ikon a{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   fill: #00454E;
- 
-  
-
 }
+
+
+
+.flexboks {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 
 .footer {
     position: fixed;
