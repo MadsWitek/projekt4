@@ -92,13 +92,12 @@ img {
     max-width: 150;
     height: 180px;
   }
-}
-
-@media (max-width: 600px) {
   .footer {
     max-width: 150;
     height: 50px;
   }
 }
+
+
 
 
