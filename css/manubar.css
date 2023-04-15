@@ -12,7 +12,11 @@ img {
   height: 50px;
 }
 
-
+.logo {
+  flex-grow: 1;
+  align-items: flex-start;
+  display: flex
+}
 
 
 .menubar {
