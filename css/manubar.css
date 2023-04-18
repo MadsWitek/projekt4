@@ -137,9 +137,9 @@ background: #fefefe;
   overflow: hidden;
 }
 .nav-bar.active {
-  height: 750px;
- 
- }
+ height: 750px;
+
+}
 
 .nav-bar ul {
   display: block;
