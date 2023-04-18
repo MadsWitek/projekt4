@@ -188,6 +188,75 @@ display: flex;
     fill: #9B3C7D;
 }
 
+/*styling til slideshow*/
+
+.nye{
+    text-align: center;
+}
+
+#anmeldelser{
+    background-color: white;
+    width: 1000px;
+    height: 450px;
+    margin: 200px auto;
+    border: 1px solid none;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#anmeldelser .slide-indhold {
+    flex-direction: column;
+}
+
+#slideshow{
+    width: auto;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#slideshow > .slide-indhold{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 24px 10px 0px 10px;
+    background: rgba(0,0,0,.1);
+    border: 2px solid black;
+    border-radius: 100%;
+    font-size: 17px;
+    transition: 0.3s linear 0s;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+#indhold{
+    margin: 0px auto;
+    transition: opacity 0.3s linear 0s;
+    font-family: roboto, sans-serif;
+}
+
+#indhold > h2{
+    text-align: center;
+    color:black;
+}
+
+#indhold{
+    font-size: 17px;
+    line-height: 1.5em;
+    padding: 20px 50px;
+    text-align: center;
+    color: black;
+    font-family: roboto, sans-serif;
+    font-weight: 100;
+}
+
+#indhold > h3{
+    text-align: left;
+    color: black;
+    font-style: italic;
+    padding: 10px;
+}
+
 
   @media only screen and (max-width: 850px) and (min-width: 300px) {
     .sidebar{

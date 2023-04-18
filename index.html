@@ -7,6 +7,7 @@
     <title>Front Page</title>
     <link rel="stylesheet" href="css/manubar.css">
     <link rel="stylesheet" href="css/frontpage.css">
+    <script src="js/frontpageslideshow.js" defer></script>
 </head>
 <body>
     <div class="menubar">
@@ -41,7 +42,6 @@
           </a>
           <div class="searchbar">
             <div><input class="searchtekst" type="text" placeholder="Skriv en besked..."></div>
-         </div>
         </div>
   
           <div class="ikon"> 
@@ -50,6 +50,35 @@
           </a></div>
         </div>
         <div class="forsideoverskrift"><h1>Forside</h1></div>
+
+
+<!--Indlæg slideshow-->
+        <br>
+        <br>
+        <br>
+    <h2 class="nye">Nyeste indlæg</h2>     
+         <br>
+    <div id="anmeldelser">
+        <div id="indhold">
+            <div class="slide-indhold">
+                <h2>
+                    <b>WORKSHOP I WORDPRES</b>
+                </h2>
+                <br>
+                <p>1 semester · workshop · wordpres
+                    <br>
+                    <br>Jeg vil rigtig gerne have mere vejledning i wordpres, da jeg føler vi fik en meget kort introduktion til det. Er der stemning for at lave en workshop på tværs af semestrene?
+                </p>
+            </div>
+        </div>
+        <div id="slideshow">
+            <div class="slide-indhold" onclick="slideshow(0); clearInterval(intrvl);" style="background: lightgrey;"></div>
+            <div class="slide-indhold" onclick="slideshow(1); clearInterval(intrvl);"></div>
+            <div class="slide-indhold" onclick="slideshow(2); clearInterval(intrvl);"></div>
+            <div class="slide-indhold"onclick="slideshow(3); clearInterval(intrvl);"></div>
+        </div>
+    </div> 
+
 
     <div class="container">
         <!--<div class="sidebar" id="sidebar">
@@ -88,6 +117,7 @@
             </div>
             
         </div> -->
+
         <div class="container1">
             <div>
                 <h2 class="indleagoverskrift">Mere vejledning i Javascript</h2> 
