@@ -29,12 +29,15 @@ h1{
     font-size: 37px;
     font-weight: 200;
     line-height: 46px;
+    margin: 20px;
 }
 
 h2{
     color: #c60000;
     font-weight: bold;
     text-align: center;
+    margin: 20px;
+    font-size: 20px;
 }
 
 button{
@@ -54,6 +57,7 @@ button.logindbutton1{
     text-decoration: underline;
     font-size: bold;
     color: black;
+    margin: 20px;
 }
 
 button:hover{
@@ -63,4 +67,11 @@ button:hover{
 a{
     background-color: transparent;
     color: #0055b0;
+    margin: 20px;
+    font-size: 12px;
+}
+
+p{
+    margin: 20px;
+    font-size: 15px;
 }
