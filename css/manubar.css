@@ -114,7 +114,7 @@ background: #fefefe;
       padding: 0 30px;
   }
 }
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:1200px) {
 .hamburger {
     display: block;
     cursor: pointer; 
