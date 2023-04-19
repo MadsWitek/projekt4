@@ -1,5 +1,5 @@
-:root{
-    --bg-colour: #ffffff; 
+:root {
+    --bg-colour: #ffffff;
     --second-bg-colour: #00454E;
     --third-bg-colour: #e4f1f0;
     --button-colour: #00454E;
@@ -12,7 +12,7 @@
     --third-font-colour: #e33939;
 }
 
-body{
+body {
     background: var(--second-bg-colour);
     box-sizing: border-box;
     margin: 0;
@@ -20,7 +20,7 @@ body{
 }
 
 
-.tilbageknap{
+.tilbageknap {
     display: flex;
     background-color: #00454E;
     border: none;
@@ -31,7 +31,7 @@ body{
     margin-left: 40px;
 }
 
-.clocktekst{
+.clocktekst {
     font-family: sans-serif;
     font-size: 12px;
     display: inline-block;
@@ -56,8 +56,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
 }
+
 .category {
     font-family: sans-serif;
     font-weight: bold;
@@ -106,18 +107,18 @@ body{
     margin-bottom: 5px;
 }
 
-.clocktekst{
+.clocktekst {
     font-family: sans-serif;
     font-weight: 500;
     font-size: 12px;
 
 }
 
-.commentarytekst{
+.commentarytekst {
     font-family: sans-serif;
     font-weight: 500;
     font-size: 12px;
-    
+
 }
 
 .hjerte {
@@ -143,13 +144,14 @@ body{
     align-items: center;
     flex-direction: row;
 }
+
 .con4 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-right: 20px;
-    
+
 }
 
 .profiltekst1 {
@@ -176,11 +178,7 @@ body{
     line-height: 20px;
 }
 
-.liketekst1 {
-    font-family: sans-serif;
-    font-weight: 500;
-    font-size: 10px;
-}
+
 
 .con5 {
     display: inline-block;
@@ -195,13 +193,7 @@ body{
     padding: 2px;
 }
 
-.con6 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin-bottom: -10px;
-} 
+
 
 /* kommentar 2 */
 
@@ -211,13 +203,8 @@ body{
     align-items: center;
     flex-direction: row-reverse;
 }
-.con8 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 20px;
-}
+
+
 
 .profiltekst1 {
     font-family: sans-serif;
@@ -235,31 +222,12 @@ body{
     margin-top: -9px;
 }
 
-.kommentar2 {
-    font-family: sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    max-width: 800px;
-    line-height: 20px;
-}
+
 
 .liketekst1 {
     font-family: sans-serif;
     font-weight: 500;
     font-size: 10px;
-}
-
-.con9 {
-    display: inline-block;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    background-color: white;
-    border: 1px;
-    border-radius: 10px;
-    padding-bottom: 5px;
-    padding: 2px;
 }
 
 .con10 {
@@ -310,6 +278,74 @@ body{
     padding-right: 20px;
 }
 
-.sendknap:hover{
+.sendknap:hover {
     background-color: var(--third-bg-colour);
+}
+
+
+
+#chat-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.chat-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+#chat-container .chat-message:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.message {
+    padding: 8px 15px;
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    border: 1px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    width: 100%;
+    word-break: break-word;
+}
+
+.likes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: -10px;
+}
+
+.comment {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    max-width: 800px;
+    line-height: 20px;
+}
+
+.like-tekst {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 10px;
 }

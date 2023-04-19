@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Debat</title>
     <link rel="stylesheet" href="/css/diskussion.css">
 </head>
+
 <body>
     <main>
         <div class="con1">
@@ -19,46 +21,108 @@
         <div class="con3">
             <div class="con4">
                 <div><img src="icons/profile.descuss.svg" alt="anonymt profilbillede"></div>
-                <div><p class="profiltekst1">Studerende</p></div>
-                <div><p class="profiltekst2">2. Semester</p></div>
+                <div>
+                    <p class="profiltekst1">Studerende</p>
+                </div>
+                <div>
+                    <p class="profiltekst2">2. Semester</p>
+                </div>
             </div>
             <div class="con5">
-                <div><p class="kommentar1">Jeg synes at det kunne være mega fedt hvis vi kunne få
-                    noget mere vejledning i javascript, da jeg synes det er lidt svært. Hvad tænker i? Kunne det være
-                    relevant med mere undervisning i js? Eller har i nogen input til hvordan vi kan få ekstra hjælp?
-                </p></div>
+                <div>
+                    <p class="kommentar1">Jeg synes at det kunne være mega fedt hvis vi kunne få
+                        noget mere vejledning i javascript, da jeg synes det er lidt svært. Hvad tænker i? Kunne det
+                        være
+                        relevant med mere undervisning i js? Eller har i nogen input til hvordan vi kan få ekstra hjælp?
+                    </p>
+                </div>
                 <div class="con6">
                     <div><img src="icons/thumb_up_FILL1_wght400_GRAD0_opsz48.svg" alt="Like"></div>
-                    <div><p>&nbsp;&nbsp;</p></div>
-                    <div><p class="liketekst1">Du og 3 andre synes godt om dette.</p></div>
+                    <div>
+                        <p>&nbsp;&nbsp;</p>
+                    </div>
+                    <div>
+                        <p class="liketekst1">Du og 3 andre synes godt om dette.</p>
+                    </div>
                 </div>
             </div>
         </div>
         <br>
-        <div class="con7">
+        <div class="con7" id="chat-container">
             <div class="con8">
                 <div><img src="icons/profile.descuss.svg" alt="anonymt profilbillede"></div>
-                <div><p class="profiltekst1">Studerende</p></div>
-                <div><p class="profiltekst2">3. Semester</p></div>
+                <div>
+                    <p class="profiltekst1">Studerende</p>
+                </div>
+                <div>
+                    <p class="profiltekst2">3. Semester</p>
+                </div>
             </div>
             <div class="con9">
-                <div><p class="kommentar2"> Vi er et par stykker på 3. semester der har et par workshops en gang
-                    i mellem, kunne det være noget for dig/jer?
-                </p></div>
+                <div>
+                    <p class="kommentar2"> Vi er et par stykker på 3. semester der har et par workshops en gang
+                        i mellem, kunne det være noget for dig/jer?
+                    </p>
+                </div>
                 <div class="con10">
                     <div><img src="icons/thumb_up_FILL1_wght400_GRAD0_opsz48.svg" alt="Like"></div>
-                    <div><p>&nbsp;&nbsp;</p></div>
-                    <div><p class="liketekst1">Synes godt om dette.</p></div>
+                    <div>
+                        <p>&nbsp;&nbsp;</p>
+                    </div>
+                    <div>
+                        <p class="liketekst1">Synes godt om dette.</p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="con11">
-            <div><input class="tekstfelt" type="text" placeholder="Skriv en besked..."></div>
-            <div><input class="sendknap" type="button" value="Send"></div>
+            <form id="form">
+                <div><input class="tekstfelt" type="text" placeholder="Skriv en besked..."></div>
+                <div><input class="sendknap" type="submit" value="Send"></div>
+            </form>
         </div>
         <div class="logo">
-            <?xml version="1.0" encoding="UTF-8"?><svg id="Lag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 347.72 99.73"><defs><clipPath id="clippath"><rect width="275.69" height="89.45" fill="none"/></clipPath></defs><path d="M59.2,56.12v-19.1c0-3.55-1.51-5.81-5.17-5.81-3.02,.19-5.77,1.78-7.44,4.3v20.61h-4.39v-19.1c0-3.55-1.46-5.81-5.18-5.81-2.84,0-5.87,2.09-7.38,4.36v20.55h-4.36V28.01h4.36v4.11c2.2-2.85,5.53-4.59,9.13-4.77,4.24,0,6.68,2.33,7.5,5.23,2.11-3.15,5.61-5.1,9.41-5.23,5.11,0,7.85,2.85,7.85,8.49v20.28h-4.33Z" fill="#fff"/><path d="M71.48,21.12c0-1.66,1.34-3,3-3,1.62,.01,2.92,1.33,2.91,2.95,0,.02,0,.03,0,.05,.02,1.59-1.26,2.89-2.85,2.91-.02,0-.04,0-.06,0-1.61,.04-2.95-1.23-3-2.84,0-.02,0-.05,0-.07Zm.75,35V28.01h4.36v28.11h-4.36Z" fill="#fff"/><path d="M86.2,50.21V31.85h-4.65v-3.84h4.65v-7.67h4.42v7.67h5.69v3.84h-5.71v17.43c0,2.09,.93,3.61,2.79,3.61,1.12,.02,2.21-.42,3-1.22l1.28,3.31c-1.41,1.27-3.28,1.91-5.17,1.8-4.23,0-6.3-2.38-6.3-6.57Z" fill="#fff"/><g clip-path="url(#clippath)"><g><path d="M42.66,89.29c4.51,.92,8.92-2,9.83-6.51,.92-4.51-2-8.92-6.51-9.83-4.51-.92-8.91,1.99-9.83,6.51-.92,4.51,2,8.92,6.51,9.84" fill="#fff"/><path d="M17.47,84.89c3.71,.76,7.33-1.63,8.08-5.34,.76-3.71-1.63-7.33-5.34-8.08-3.71-.76-7.33,1.63-8.08,5.34,0,0,0,0,0,0-.76,3.71,1.63,7.32,5.34,8.08" fill="#fff"/><path d="M4.39,66.53c2.96,.6,5.85-1.32,6.44-4.28s-1.32-5.85-4.28-6.44c-2.95-.59-5.83,1.31-6.44,4.27-.61,2.96,1.3,5.85,4.26,6.46,0,0,.01,0,.02,0" fill="#fff"/><path d="M4.61,45.77c2.37,.48,4.68-1.05,5.16-3.42,.48-2.37-1.05-4.68-3.42-5.16-2.37-.48-4.68,1.05-5.16,3.41-.48,2.37,1.05,4.68,3.42,5.17" fill="#fff"/></g></g><text transform="translate(100.23 57.19)" fill="#fff" font-family="Roboto-Black, Roboto" font-size="56"><tspan x="0" y="0">FORS</tspan><tspan x="140.87" y="0" letter-spacing="0em">L</tspan><tspan x="171.75" y="0" letter-spacing="-.01em">A</tspan><tspan x="209.32" y="0">G</tspan></text></svg>
+            <?xml version="1.0" encoding="UTF-8"?><svg id="Lag_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 347.72 99.73">
+                <defs>
+                    <clipPath id="clippath">
+                        <rect width="275.69" height="89.45" fill="none" />
+                    </clipPath>
+                </defs>
+                <path
+                    d="M59.2,56.12v-19.1c0-3.55-1.51-5.81-5.17-5.81-3.02,.19-5.77,1.78-7.44,4.3v20.61h-4.39v-19.1c0-3.55-1.46-5.81-5.18-5.81-2.84,0-5.87,2.09-7.38,4.36v20.55h-4.36V28.01h4.36v4.11c2.2-2.85,5.53-4.59,9.13-4.77,4.24,0,6.68,2.33,7.5,5.23,2.11-3.15,5.61-5.1,9.41-5.23,5.11,0,7.85,2.85,7.85,8.49v20.28h-4.33Z"
+                    fill="#fff" />
+                <path
+                    d="M71.48,21.12c0-1.66,1.34-3,3-3,1.62,.01,2.92,1.33,2.91,2.95,0,.02,0,.03,0,.05,.02,1.59-1.26,2.89-2.85,2.91-.02,0-.04,0-.06,0-1.61,.04-2.95-1.23-3-2.84,0-.02,0-.05,0-.07Zm.75,35V28.01h4.36v28.11h-4.36Z"
+                    fill="#fff" />
+                <path
+                    d="M86.2,50.21V31.85h-4.65v-3.84h4.65v-7.67h4.42v7.67h5.69v3.84h-5.71v17.43c0,2.09,.93,3.61,2.79,3.61,1.12,.02,2.21-.42,3-1.22l1.28,3.31c-1.41,1.27-3.28,1.91-5.17,1.8-4.23,0-6.3-2.38-6.3-6.57Z"
+                    fill="#fff" />
+                <g clip-path="url(#clippath)">
+                    <g>
+                        <path
+                            d="M42.66,89.29c4.51,.92,8.92-2,9.83-6.51,.92-4.51-2-8.92-6.51-9.83-4.51-.92-8.91,1.99-9.83,6.51-.92,4.51,2,8.92,6.51,9.84"
+                            fill="#fff" />
+                        <path
+                            d="M17.47,84.89c3.71,.76,7.33-1.63,8.08-5.34,.76-3.71-1.63-7.33-5.34-8.08-3.71-.76-7.33,1.63-8.08,5.34,0,0,0,0,0,0-.76,3.71,1.63,7.32,5.34,8.08"
+                            fill="#fff" />
+                        <path
+                            d="M4.39,66.53c2.96,.6,5.85-1.32,6.44-4.28s-1.32-5.85-4.28-6.44c-2.95-.59-5.83,1.31-6.44,4.27-.61,2.96,1.3,5.85,4.26,6.46,0,0,.01,0,.02,0"
+                            fill="#fff" />
+                        <path
+                            d="M4.61,45.77c2.37,.48,4.68-1.05,5.16-3.42,.48-2.37-1.05-4.68-3.42-5.16-2.37-.48-4.68,1.05-5.16,3.41-.48,2.37,1.05,4.68,3.42,5.17"
+                            fill="#fff" />
+                    </g>
+                </g><text transform="translate(100.23 57.19)" fill="#fff" font-family="Roboto-Black, Roboto"
+                    font-size="56">
+                    <tspan x="0" y="0">FORS</tspan>
+                    <tspan x="140.87" y="0" letter-spacing="0em">L</tspan>
+                    <tspan x="171.75" y="0" letter-spacing="-.01em">A</tspan>
+                    <tspan x="209.32" y="0">G</tspan>
+                </text>
+            </svg>
         </div>
     </main>
 </body>
+
 </html>
