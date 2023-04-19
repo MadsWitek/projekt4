@@ -17,7 +17,7 @@ body {margin:0;
   flex-direction: row;
   padding-left: 10px;
   padding-top: 10px;
-  padding-bottom: 8px;
+  padding-bottom: 30px;
   border-bottom: 3px solid #00454E;
  
   
@@ -73,3 +73,9 @@ body {margin:0;
   fill: #00454e;
 }
 
+.afstandtil-footer{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 50px solid #00454e00;
+ 
+}
