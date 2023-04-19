@@ -4,8 +4,8 @@ body{
 }
 
 .overskriftminprofil{
-    font-size: 22px;
-    letter-spacing: .75px;
+    font-size: 40px;
+    letter-spacing: 5px;
     line-height: 1.2;
     display: flex;
     justify-content: center;
@@ -14,10 +14,12 @@ body{
 
 .container{
     font-size: 20px;
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     line-height: 0.5;
     font-family: sans-serif;
-    padding-left: 35%;
+
 }
 .logudknap {
     display: flex;
@@ -29,6 +31,7 @@ body{
     color: #FFFFFF;
     border: none;
     justify-content: center;
+    align-items: center;
     fill: #FFFFFF;
     cursor: pointer;
     margin-left: 34.5%;
@@ -45,8 +48,8 @@ body{
 }
 
 .tilbageknap{
+    margin-top: 20px;
     display: flex;
-    margin-top: -750px;
     background-color: #00454E;
     border: none;
     padding-left: 30px;
