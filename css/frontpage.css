@@ -20,7 +20,7 @@
 }
 
 body{
-    background-color: var(--bg-colour);
+    background-color: var(--second-bg-colour);
 }
 
 .forsideoverskrift {
@@ -32,6 +32,9 @@ body{
     padding-top: 20px;
     font-family: sans-serif;
 }
+
+
+
 
 
 /*
