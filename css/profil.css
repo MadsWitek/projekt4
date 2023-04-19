@@ -9,7 +9,9 @@ body{
     line-height: 1.2;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: sans-serif;
+    text-align: left;
 }
 
 .container{
@@ -19,6 +21,7 @@ body{
     align-items: center;
     line-height: 0.5;
     font-family: sans-serif;
+    margin-left: -280px;
 
 }
 .logudknap {
@@ -34,7 +37,6 @@ body{
     align-items: center;
     fill: #FFFFFF;
     cursor: pointer;
-    margin-left: 34.5%;
 }
 
 .logudknap a {
@@ -45,6 +47,12 @@ body{
 .logudknap:hover{
     background-color: red;
     color: #FFFFFF;
+}
+
+.knapcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tilbageknap{
@@ -59,27 +67,47 @@ body{
 
 .mineindlæg{
     display: flex;
+    flex-direction: column;
     fill: #FFFFFF;
     cursor: pointer;
-    size: 10px;
-    scale: 90%;
 }
 
 .gemteindlæg{
     display: flex;
+    flex-direction: column;
     fill: #FFFFFF;
     cursor: pointer;
-    scale: 90%;
+
 }
 
-.knappertilindlæg{
-    margin-left: -52px;
+.pil {
+    position: relative;
+    left: 280px;
 }
+
+.knappertilindlæg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 
 @media (max-width: 450px) {
     .container {
-        padding-top: 25px;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .overskriftminprofil {
+        display: flex;
+        font-size: 20px;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+    }
+    .logudknap {
+        width: 100%;
+        height: auto;
     }
 }
