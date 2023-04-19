@@ -76,6 +76,6 @@ body {margin:0;
 .afstandtil-footer{
   display: flex;
   flex-direction: row;
-  border-bottom: 80px solid #00454e00;
+  border-bottom: 100px solid #00454e00;
  
 }
