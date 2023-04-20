@@ -1,11 +1,11 @@
 
-// Get references to the relevant HTML elements
+
 const form = document.querySelector("#form")
 const sendButton = document.querySelector('.sendknap');
 const chatContainer = document.querySelector('#chat-container');
 const messageInput = document.querySelector('.tekstfelt');
 
-// Define an array of messages
+
 const messageArray = [
   {
     profileImage: "icons/profile.descuss.svg",
@@ -28,21 +28,21 @@ const messageArray = [
   },
 ]
 
-// Iterate through the message array and create a message element for each message
+
 messageArray.forEach(message => {
   createMessage(message)
 })
 
-// Define a function for creating a new message element
+
 function createMessage(data) {
-  // get the value of the message input
+  
   const messageText = messageInput.value;
 
-  // create a new message element
+ 
   const newMessageElement = document.createElement('div');
   newMessageElement.classList.add("chat-message")
 
-  // Set the inner HTML of the new message element to include the message data
+  
   newMessageElement.innerHTML = `
       <div class="profile">
         <div><img src="${data.profileImage}" alt="anonymt profilbillede"></div>
@@ -73,19 +73,17 @@ function createMessage(data) {
       </div>
   `;
 
-  // add the new message element to the chat container
+  
   chatContainer.appendChild(newMessageElement);
 
-  // clear the message input
+  
   messageInput.value = '';
 
-  // scroll to the bottom of the page
+  
   window.scrollTo(0, document.body.scrollHeight);
 }
 
-//
 
-// add an event listener to the "Send" button
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
