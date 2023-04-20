@@ -266,10 +266,9 @@ main {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
-    border-top: 0.1rem solid #000000;
-    border-bottom: 0.1rem solid #000000;
+    border-top: 0.2rem solid #00454E;
     border-width: 100%;
-    background-color: #CAE4E3;
+    background-color: #FFFFFF;
 }
 
 .hjerte {
