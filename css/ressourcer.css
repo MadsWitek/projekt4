@@ -30,9 +30,10 @@ body {margin:0;
 
 .pil-op {
   margin-left: 90%;
-  fill: #00454E;
- 
-
+  fill: #000000;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 .box1 {
