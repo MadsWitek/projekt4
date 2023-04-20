@@ -7,6 +7,7 @@
     <title>Ressourcer</title>
     <link rel="stylesheet" href="css/ressourcer.css">
     <link rel="stylesheet" href="css/manubar.css">
+    <script src="js/manubar.js" async defer></script>
 </head>
 <body>
 
@@ -70,15 +71,7 @@
         </nav>
     </header>
 
-    <script>
-        hamburger = document.querySelector(".hamburger");
-        hamburger.onclick = function(){
-        navBar = document.querySelector(".nav-bar");
-        navBar.classList.toggle("active");
-        }
-    
-    
-    </script>
+
 
 
 
@@ -106,7 +99,7 @@
             </div> <!-- tekts pacereing ind i boxs 2-->
             <div class="pilbox"> <!-- pil pacereing-->
                 <div>
-                    <div class="pilikon">
+                    <div class="pilikon"  onclick="changeElement()">
                         <a href="pdf/semesterbeskrivelse 1.pdf">
                             <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="m304 974-56-57 343-343-343-343 56-57 400 400-400 400Z"/></svg>
                         </a>
@@ -127,11 +120,11 @@
                 <br>
                <div class="undertekst"> 
                     <div>24/03-2023 </div>
-                    <div>&nbsp;&nbsp;&nbsp;&nbsp;2 filer</div>
+                    <div>&nbsp;&nbsp;&nbsp;&nbsp;2 filer </div>
                 </div>
         
             </div> 
-            <div class="pilbox"> 
+            <div class="pilbox" onclick="changeElement()"> 
                 <div>
                     <div class="pilikon">
                         <a href="pdf/Semesterbeskrivelse 2.pdf">
@@ -158,7 +151,7 @@
                 </div>
         
             </div> 
-            <div class="pilbox"> 
+            <div class="pilbox" onclick="changeElement()"> 
                 <div>
                     <div class="pilikon">
                         <a href="pdf/Semesterbeskrivelse 3.pdf">
@@ -185,7 +178,7 @@
                 </div>
         
             </div> 
-            <div class="pilbox"> 
+            <div class="pilbox" onclick="changeElement()"> 
                 <div>
                     <div class="pilikon">
                         <a href="pdf/Semesterbeskrivelse 4.pdf">
@@ -212,7 +205,7 @@
                 </div>
         
             </div> 
-            <div class="pilbox"> 
+            <div class="pilbox" onclick="changeElement()"> 
                 <div>
                     <div class="pilikon">
                         <a href="pdf/Studieordning.pdf">
@@ -229,6 +222,10 @@
 
         
     </table>
+
+   
+    
+
 
 
 
