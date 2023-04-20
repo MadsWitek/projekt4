@@ -42,6 +42,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .headline {
@@ -57,6 +58,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
 }
 
 .category {
@@ -73,6 +75,7 @@ body {
     flex-direction: row;
     max-width: 100%;
     margin-bottom: 25px;
+    padding: 10px;
     color: #FFFFFF;
     border-bottom: 0.1rem solid #ffffff;
     border-width: 80%;
@@ -105,6 +108,7 @@ body {
     align-items: center;
     flex-direction: row;
     margin-bottom: 5px;
+    padding: 10px;
 }
 
 .clocktekst {
@@ -250,6 +254,13 @@ body {
     padding-top: 40px;
 }
 
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
 .tekstfelt {
     display: flex;
     justify-content: center;
@@ -350,3 +361,5 @@ body {
     font-weight: 500;
     font-size: 10px;
 }
+
+
