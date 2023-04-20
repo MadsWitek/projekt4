@@ -18,7 +18,8 @@ img {
 .logo {
   flex-grow: 1;
   align-items: flex-start;
-  display: flex
+  display: flex;
+  margin: 20px;
 }
 
 body{
