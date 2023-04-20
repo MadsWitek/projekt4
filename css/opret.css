@@ -109,6 +109,13 @@ textarea {
     margin-left: 40px;
 }
 
+footer{
+    background-color: #CAE4E3;
+}
+h3{
+    color: black;
+}
+
 @media (max-width: 600px) {
     .select {
         padding: 10px 5px;
