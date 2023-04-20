@@ -211,7 +211,7 @@ body {
     font-weight: 400;
     font-size: 15px;
     color: white;
-    margin-top: -1px;
+    margin-top: 1px;
 }
 
 .profiltekst2 {
@@ -219,7 +219,7 @@ body {
     font-weight: 400;
     font-size: 10px;
     color: white;
-    margin-top: -9px;
+    margin-top: 4px;
 }
 
 
@@ -326,6 +326,7 @@ body {
     padding-bottom: 5px;
     width: 100%;
     word-break: break-word;
+    margin-left: 20px;
 }
 
 .likes {
