@@ -275,15 +275,12 @@ main {
     fill: #9B3C7D;
 }
 
-.favoritteroverskrift {
-    font-size: 22px;
-    letter-spacing: .75px;
-    line-height: 1.2;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    font-family: sans-serif;
+.show {
+    opacity: 1;
+    bottom: 0;
 }
+
+
 
 @media only screen and (max-width: 850px) and (min-width: 300px) {
     .container{
