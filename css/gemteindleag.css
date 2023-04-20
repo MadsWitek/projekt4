@@ -102,8 +102,8 @@ body {
     display: flex;
     flex-direction: row;
     padding: 20px;
-    border-top: 0.1rem solid #ffffff;
-    border-bottom: 0.1rem solid #ffffff;
+    border-top: 0.2rem solid #ffffff;
+    border-bottom: 0.2rem solid #ffffff;
     border-width: 100%;
 }
 
@@ -119,6 +119,7 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    padding-bottom: 20px;
     font-family: sans-serif;
 }
 
