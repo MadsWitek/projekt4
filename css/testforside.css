@@ -73,7 +73,7 @@ body{
     position: relative;
     text-align: center;
     color: #FFFFFF;
-    padding: 10px;
+    padding: 1px;
 }
 
 .hero-image{
@@ -112,7 +112,7 @@ body{
 /*styling til slideshow*/
 
 main {
-    margin-top: 100px;
+    margin-top: 200px;
     padding: 0px;
 } 
 
