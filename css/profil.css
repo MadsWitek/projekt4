@@ -4,14 +4,14 @@ body{
 }
 
 .overskriftminprofil{
-    font-size: 40px;
-    letter-spacing: 5px;
+    font-size: 30px;
+    letter-spacing: 2px;
     line-height: 1.2;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
-    text-align: left;
+    padding-top: 20px;
 }
 
 .container{
