@@ -20,15 +20,14 @@ body {
 }
 
 
-.tilbageknap {
+.tilbageknap{
+    margin-top: 20px;
     display: flex;
     background-color: #00454E;
     border: none;
     padding-left: 30px;
     fill: #FFFFFF;
     cursor: pointer;
-    margin-top: 50px;
-    margin-left: 40px;
 }
 
 .clocktekst {
