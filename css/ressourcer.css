@@ -1,4 +1,5 @@
 body {margin:0;
+  background: #00454E;
 }
 
 .ressourceoverskrift {
@@ -9,6 +10,9 @@ body {margin:0;
   justify-content: center;
   padding-top: 20px;
   font-family: sans-serif;
+  color: #fefefe;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 
@@ -18,7 +22,9 @@ body {margin:0;
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 30px;
-  border-bottom: 3px solid #00454E;
+  border-bottom: 3px solid #fefefe;
+  margin-left: 20%;
+  margin-right: 20%;
  
   
   
@@ -37,7 +43,7 @@ body {margin:0;
 .overskrift {
   font-family: sans-serif;
   font-size: 20;
-  color: #00454E;
+  color: #fefefe;
 }
 
 
@@ -49,7 +55,7 @@ body {margin:0;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-  color: #00454E;
+  color: #fefefe;
   font-family: sans-serif;
 
 }
@@ -70,12 +76,11 @@ body {margin:0;
   justify-content: center;
   align-items: center;
   text-align: center;
-  fill: #00454e;
+  fill: #fefefe;
 }
 
 .afstandtil-footer{
   display: flex;
   flex-direction: row;
   border-bottom: 100px solid #00454e00;
- 
 }

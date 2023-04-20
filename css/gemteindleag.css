@@ -1,6 +1,8 @@
-.body {
+body {
     box-sizing: border-box;
     margin: 0;
+    background-color: #00454E;
+
 }
 
 
@@ -13,15 +15,22 @@
 }
 
 .kategori {
+    color: #ffffff;
     font-family: sans-serif;
     font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .indleagoverskrift {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #ffffff;
     font-family: sans-serif;
-    font-size: 25;
+    font-size: 25px;
 }
 .indleag1 {
+    color: #ffffff;
     font-family: sans-serif;
     font-size: 15px;
     max-width: 700px;
@@ -37,10 +46,12 @@
     justify-content: center;
     align-items: center;
     text-align: left;
-    min-width: 100px
+    min-width: 100px;
+    padding-top: 10px;
 }
 
 .ikontekst {
+    color: #ffffff;
     font-family: sans-serif;
     font-size: 15px;
     text-align: left;
@@ -55,10 +66,23 @@
     font-family: sans-serif;
     font-size: 15px;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff
+}
+
+.piltilhøjre {
+    fill: #ffffff;
+}
+
+.klokkeikon {
+    fill: #ffffff;
+}
+
+.kommentarikon {
+    fill: #ffffff;
 }
 
 .piltekst {
+    color: #ffffff;
     font-family: sans-serif;
     font-size: 15px;
 }
@@ -77,11 +101,9 @@
 .container {
     display: flex;
     flex-direction: row;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    border-top: 0.1rem solid #000000;
-    border-bottom: 0.1rem solid #000000;
+    padding: 20px;
+    border-top: 0.2rem solid #ffffff;
+    border-bottom: 0.2rem solid #ffffff;
     border-width: 100%;
 }
 
@@ -90,12 +112,14 @@
 }
 
 .favoritteroverskrift {
+    color: #ffffff;
     font-size: 22px;
     letter-spacing: .75px;
     line-height: 1.2;
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    padding-bottom: 20px;
     font-family: sans-serif;
 }
 
