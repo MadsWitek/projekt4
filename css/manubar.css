@@ -104,6 +104,9 @@ h3{
   left: 0;
   margin: 20px;
 }
+.footersvg:hover{
+  fill: #fae76a;
+}
 
 
 @media (max-width: 800px) {
