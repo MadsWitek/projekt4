@@ -15,6 +15,7 @@ img {
   height: 80px;
 }
 
+
 .logo {
   flex-grow: 1;
   align-items: flex-start;
@@ -60,13 +61,15 @@ header {
   fill: #00454E;
 }
 
+
+
 .nav-bar ul li a:hover {
-  border-bottom: 3px solid #707070;
+  border-bottom: 5px solid #707070;
 }
 
-.nav-bar ul li a.active {
-color: #070707;
-background: #fefefe;
+/* Style the active class, and buttons on mouse-over */
+.nav-bar a.active {
+  border-bottom: 3px solid #707070;
 }
 
 footer{
