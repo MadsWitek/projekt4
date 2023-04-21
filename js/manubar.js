@@ -1,4 +1,4 @@
-
+// burger-bar til mobilvation)
 hamburger = document.querySelector(".hamburger");
 hamburger.onclick = function(){
 navBar = document.querySelector(".nav-bar");
@@ -10,18 +10,7 @@ function changeElement() {
 }
 
 
-
-// Add active class to the current button (highlight it)
-var header = document.getElementById("nav-bar");
-var btns = header.getElementsByClassName("bb");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
-
+// knap funktion)
 function bigImg(x) {
   x.style.height = "80px";
   x.style.width = "80px";
@@ -33,6 +22,7 @@ function normalImg(x) {
 }
 
 
+// scolle knap)
 let mybutton = document.getElementById("scrolle");
            
 
@@ -53,3 +43,13 @@ function topFunction() {
 }
            
  
+// siderne placering)
+var header = document.getElementById("nav-bar");
+var btns = header.getElementsByClassName("bb");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
