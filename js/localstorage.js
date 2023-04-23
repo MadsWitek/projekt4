@@ -16,5 +16,5 @@ form.addEventListener("submit", function (e) {
     localStorage.setItem("varighed", varighed.value)
     localStorage.setItem("semester", semester.value)
 
-    window.location.href = "/opretdone.html"
+    window.location.href = "opretdone.html"
 })
